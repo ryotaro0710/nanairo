@@ -58,7 +58,6 @@ $(window).scroll(function(){
 $(window).resize(function() {
 
 	var topHeight = $(window).height();
-	$('.header').css('height' , topHeight + 'px');
 	$('.top-title').css('margin-top' , topHeight / 2.8 + 'px');
 	$('.top-text').css('margin-top' , topHeight / 2.2 + 'px');
      
@@ -69,7 +68,6 @@ $(window).resize(function() {
 document.addEventListener( 'DOMContentLoaded', function(){
 
 	var topHeight = $(window).height();
-	$('.header').css('height' , topHeight + 'px');
 	$('.top-title').css('margin-top' , topHeight / 2.8 + 'px');
 	$('.top-text').css('margin-top' , topHeight / 2.2 + 'px');
 	
